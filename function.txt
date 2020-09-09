@@ -1,0 +1,42 @@
+<script>
+	function addfunction()
+	{
+		document.getElementById("label1").innerText = "Add result: " ;
+		var a = 20;
+		
+		document.getElementById("label2").innerText = typeof parseInt(document.getElementById("input1").value) ;
+		if (typeof document.getElementById("input1").value == "string")
+		{
+			var concatResult = document.getElementById("input1").value + document.getElementById("input2").value ;
+			document.getElementById("output2").value = concatResult ;
+			
+			var sum = document.getElementById("input1").value + document.getElementById("input2").value ;
+			document.getElementById("output").value = sum ;
+		}
+		
+		
+	}
+	
+	function subfuntion()
+	{
+		document.getElementById("label1").innerText = "Subtraction result: " ;
+		var sum = parseInt(document.getElementById("input1").value) - parseInt(document.getElementById("input2").value) ;
+		document.getElementById("output").value = sum ;
+	}
+	
+</script>
+
+////Login
+
+	if(document.getElementById("uname").value == "admin" && document.getElementById("password").value == "12345")
+	{
+		document.getElementById("loginmessage").innerText = "Admin login successfull!" ;
+		document.getElementById("uname").value = "" ;
+		document.getElementById("password").value = "" ;
+		 //document.write("dfdagaefadhjk") ;
+	}
+	else
+	{
+		document.getElementById("loginmessage").innerText = "Incorrect login details" ;
+	}
+	

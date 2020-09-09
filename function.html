@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Cal Forms</h2>
+
+<form >
+  <label >First number:</label><br>
+  <input type="text" id="input1" name="First number:"><br>
+  <br>
+  <label >Second number:</label><br>
+  <input type="text" id="input2" name="Second number"><br>
+  <br>
+  
+   <label id="label1" >Output number:</label><br>
+  <input type="text" id="output"><br>
+  <br>
+   <label id="label2" >Output number 2:</label><br>
+  <input type="text" id="output2"><br>
+  <br>
+  
+  <button type="button" class="button" id="add" onclick="addfunction()">Add</button>
+  
+  <button type="button" class="button" id="sub" onclick="subfunction()">Sub</button>
+  
+</form> 
+<script>
+	 function addfunction()
+        {
+            document.getElementById("label1").innerText = "Addition result: " ;
+            //document.getElementById("output").value = "Hello You clicked add button" ;
+            // var add = document.getElementById("input1").value + document.getElementById("input2").value ;
+            //concatenation 
+            var a = 20;
+            document.getElementById("label2").innerText = typeof parseInt(document.getElementById("input1").value) ;
+            if (typeof document.getElementById("input1").value == "string" )
+            {
+                var concatResult = document.getElementById("input1").value + document.getElementById("input2").value ;
+                document.getElementById("output2").value = concatResult ;
+                var sum = parseInt(document.getElementById("input1").value) + parseInt(document.getElementById("input2").value) ;
+                document.getElementById("output").value = sum ;
+            }
+        }
+        function subfunction()
+        {   
+            document.getElementById("label1").innerText = "Subtraction result: " ;
+            var sum = parseInt(document.getElementById("input1").value) - parseInt(document.getElementById("input2").value) ;
+            document.getElementById("output").value = sum ;
+        }
+
+	
+
+	
+</script>
+
+
+
+
+</body>
+</html>

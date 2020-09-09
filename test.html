@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+<body>
+    <form>
+        <p><label >User name:</label>
+        <input type="text" id="uname" name="uname"></p>
+        <p><label >Password:</label>
+        <input type="password" id="password" name="password"><br>
+        </p>
+        <button type="button" class="button" id="button1" name="button1" onclick="loginValidate()">Submit</button>
+         
+        <p><label id= "loginmessage"></label> </p>
+    </form>
+    <script>
+        function loginValidate()
+        {
+            
+            if (document.getElementById("uname").value == "admin" && document.getElementById("password").value == "12345")
+            {
+                //document.write("kjasdfjkhsdg") ; ;
+                document.getElementById("loginmessage").innerText = "Admin Login sucessfull!" ;
+                document.getElementById("uname").value = "" ;
+                document.getElementById("password").value = "" ;
+               
+            }
+            else
+            {
+                document.write("Login failed! Go back and try again...") ;
+            }
+        }
+    </script>
+</body>
+</html>
