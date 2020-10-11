@@ -104,9 +104,11 @@
     <label for="psw"><b>Password</b></label>
     <input type="password" id="password" placeholder="Enter Your PIN number" name="password" required>
 <br></br>
-    <button type="button" onclick="myFunction()" >Login</button>
+    <button type="submit" onclick="myFunction()" >Login</button>
+	
 	<p id="demo"></p>
-	<script>
+
+<script>
 function myFunction() {
   var x, text;
 
@@ -122,6 +124,7 @@ function myFunction() {
   document.getElementById("demo").innerHTML = text;
 }
 </script>
+
    
   </div>
 
