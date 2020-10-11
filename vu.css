@@ -1,0 +1,107 @@
+<style>
+   
+
+
+
+   /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #555;
+	  color: white;
+      padding: 25px;
+    }
+	
+	/* Button contact footer */
+	
+	.button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 8px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+    
+	
+  .carousel-inner img {
+      width: 80%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  
+  
+
+
+/* Table baby */
+
+#baby {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#baby td, #baby th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#baby tr:nth-child(even){background-color: #f2f2f2;}
+
+#baby tr:hover {background-color: #ddd;}
+
+#baby th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: centre;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+/* Button scroll to top */
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
+
+
+  </style>

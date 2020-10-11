@@ -1,0 +1,37 @@
+1 carers						
+						
+	customer_id	PIN	given_name	family_name	columns	
+	PR	4 nu ert			AJ	
+	10 phone nu					
+						
+2 child						
+	given_name	family_name	DOB	gender	daily message	customer_id
+				char (1)		
+				Male		
+				Female		
+				Both		
+				Unknown		
+						
+1						
+1123456789	1123	tom	smith	1		
+2123456789	2123	ted	bear	2		
+3123456789	3123	antony	star	3		
+4123456789	4123	marie	curie	4		
+5123456789	5123	kumar	sanu	5		
+						
+2						
+van	anh			f	11			
+tam	nguyen		m	22			
+thanh	ho		f	33			
+thong	minh	m	44			
+nhung	phan	f	55			
+
+1. “ The purpose of our lives is to be happy.” — Dalai Lama.
+
+2. “Life is what happens when you’re busy making other plans.” — John Lennon
+
+3. “Get busy living or get busy dying.” — Stephen King
+
+4. “You only live once, but if you do it right, once is enough.” — Mae West
+
+5. “Life is a series of baby steps.”– Hoda Kotb
